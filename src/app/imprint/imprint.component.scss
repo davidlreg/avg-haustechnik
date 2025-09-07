@@ -1,0 +1,16 @@
+.imprint {
+  height: 100%;
+  background-color: #ededed;
+  padding: 32px;
+  color: #1e2a5a;
+  a {
+    text-decoration: none;
+    color: #1e2a5a;
+  }
+  a:hover {
+    cursor: inherit;
+  }
+  a:visited {
+    cursor: #1e2a5a;
+  }
+}
