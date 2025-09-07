@@ -1,0 +1,85 @@
+nav {
+  width: 100%;
+  background-color: #fffffc;
+  display: flex;
+  flex-direction: row;
+
+  .navWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .contactBar {
+    width: 100%;
+    color: #f50501;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      padding-top: 16px;
+      padding-left: 16px;
+    }
+    a {
+      text-decoration: underline;
+      color: #f50501;
+    }
+    a:visited {
+      color: #f50501;
+    }
+    a:hover {
+      cursor: pointer;
+    }
+    a:active {
+      color: #f50501;
+    }
+
+    .socialMediaLogos {
+      padding-top: 8px;
+      padding-right: 16px;
+    }
+  }
+
+  .socialMediaLogos {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    svg {
+      width: 36px;
+      height: 36px;
+      color: #1e2a5a;
+    }
+  }
+
+  .logoNavbar {
+    width: 400px;
+    height: 80px;
+  }
+
+  .otherLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: #1e2a5a;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #2c3e83;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 16px;
+    padding-right: 16px;
+  }
+}
