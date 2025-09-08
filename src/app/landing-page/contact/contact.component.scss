@@ -22,7 +22,7 @@
 }
 
 .contact-form-section {
-  padding: 4rem 2rem;
+  padding: 32px;
   text-align: center;
 
   h2 {
@@ -47,6 +47,14 @@
         margin-bottom: 0.5rem;
         font-weight: bold;
         color: #1e2a5a;
+      }
+
+      label[for="name"]::after,
+      label[for="email"]::after,
+      label[for="phone"]::after,
+      label[for="message"]::after {
+        content: " *";
+        color: red;
       }
 
       input,
@@ -100,6 +108,10 @@
     a {
       color: #1e2a5a;
       text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
