@@ -12,35 +12,38 @@ nav {
     justify-content: space-between;
   }
 
+  /* Kontaktzeile oben */
   .contactBar {
     width: 100%;
-    color: #f50501;
     display: flex;
     justify-content: space-between;
+    color: #f50501;
+
     h3 {
-      padding-top: 16px;
-      padding-left: 16px;
+      padding: 16px 0 0 16px;
     }
+
     a {
+      color: #f50501;
       text-decoration: underline;
-      color: #f50501;
-    }
-    a:visited {
-      color: #f50501;
-    }
-    a:hover {
-      cursor: pointer;
-    }
-    a:active {
-      color: #f50501;
+
+      &:visited {
+        color: #f50501;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      &:active {
+        color: #f50501;
+      }
     }
 
     .socialMediaLogos {
-      padding-top: 8px;
-      padding-right: 16px;
+      padding: 8px 16px 0 0;
     }
   }
 
+  /* Social Media Icons */
   .socialMediaLogos {
     display: flex;
     flex-direction: row;
@@ -53,6 +56,7 @@ nav {
     }
   }
 
+  /* Logo + Navigation */
   .logoNavbar {
     width: 400px;
     height: 80px;
@@ -66,14 +70,15 @@ nav {
     justify-content: space-between;
 
     a {
-      text-decoration: none;
-      color: #1e2a5a;
       font-size: 18px;
       font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-      color: #2c3e83;
+      text-decoration: none;
+      color: #1e2a5a;
+
+      &:hover {
+        text-decoration: underline;
+        color: #2c3e83;
+      }
     }
   }
 

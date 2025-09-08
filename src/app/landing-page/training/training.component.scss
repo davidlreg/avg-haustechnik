@@ -1,12 +1,13 @@
 .contentWrapper {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .main-content {
-  display: flex;
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .ausbildung-section {
@@ -17,34 +18,39 @@
   text-align: center;
   padding: 3rem 1rem;
   background-color: #f5f5f5;
-  border-radius: 12px;
+
   p {
     font-size: 18px;
   }
+
+  h2 {
+    color: #1e2a5a;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+
+  .btn-cta {
+    display: inline-block;
+    margin: 24px;
+    padding: 16px;
+    background-color: #d62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.1s;
+  }
+  .btn-cta:hover {
+    background-color: #a61e1e;
+  }
 }
 
-.ausbildung-section h2 {
-  color: #1e2a5a;
-  margin-bottom: 1rem;
-}
-
-.ausbildung-section p {
-  margin: 0.5rem 0;
-  color: #333;
-}
-
-.btn-cta {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #d62828;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.btn-cta:hover {
-  background-color: #a61e1e;
+@media (max-width: 768px) {
+  .ausbildung-section p {
+    font-size: 16px;
+  }
 }
