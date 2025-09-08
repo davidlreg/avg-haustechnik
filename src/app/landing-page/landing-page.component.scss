@@ -269,6 +269,77 @@ footer {
   }
 }
 
+/* Abschnittstrennung */
+.section-separator {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, #1e2a5a, #ffcc00);
+    opacity: 0.2;
+    pointer-events: none;
+  }
+}
+
+/* Icons über jeder Sektion */
+.section-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  fill: #1e2a5a; // oder eine andere Farbe
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Service-Karten Hover */
+.service-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+/* Testimonials Hover */
+.testimonial-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* CTA Button Hover */
+.cta-button {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 /* Mobile Optimierung */
 @media (max-width: 768px) {
   .hero {
