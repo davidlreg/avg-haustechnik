@@ -11,8 +11,17 @@ footer {
   padding-top: 24px;
   padding-bottom: 24px;
 
+  .footer-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
   .footer-links {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
@@ -43,5 +52,11 @@ footer {
     color: #ffffff;
     font-size: 14px;
     margin: 0;
+  }
+
+  .divider {
+    width: 2px;
+    height: 80px;
+    background-color: #ffffff;
   }
 }
