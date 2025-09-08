@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { TrainingComponent } from './landing-page/training/training.component';
 
 export const routes: Routes = [
   {
@@ -13,4 +14,5 @@ export const routes: Routes = [
     component: ImprintComponent,
   },
   { path: 'landingPage', component: LandingPageComponent },
+  { path: 'training', component: TrainingComponent },
 ];
