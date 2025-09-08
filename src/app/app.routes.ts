@@ -5,6 +5,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { TrainingComponent } from './landing-page/training/training.component';
 import { CareerComponent } from './landing-page/career/career.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { ContactComponent } from './landing-page/contact/contact.component';
 
 export const routes: Routes = [
   {
@@ -19,4 +20,5 @@ export const routes: Routes = [
   { path: 'training', component: TrainingComponent },
   { path: 'career', component: CareerComponent },
   { path: 'privacy', component: PrivacyPolicyComponent },
+  { path: 'contact', component: ContactComponent },
 ];
