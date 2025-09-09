@@ -7,6 +7,7 @@ import { CareerComponent } from './landing-page/career/career.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ContactComponent } from './landing-page/contact/contact.component';
 import { PrivateCustomersComponent } from './landing-page/private-customers/private-customers.component';
+import { BusinessCustomersComponent } from './landing-page/business-customers/business-customers.component';
 
 export const routes: Routes = [
   {
@@ -23,4 +24,5 @@ export const routes: Routes = [
   { path: 'privacy', component: PrivacyPolicyComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'private-customers', component: PrivateCustomersComponent },
+  { path: 'business-customers', component: BusinessCustomersComponent },
 ];
