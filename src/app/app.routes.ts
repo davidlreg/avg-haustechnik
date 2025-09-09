@@ -18,7 +18,6 @@ export const routes: Routes = [
     path: 'imprint',
     component: ImprintComponent,
   },
-  { path: 'landingPage', component: LandingPageComponent },
   { path: 'training', component: TrainingComponent },
   { path: 'career', component: CareerComponent },
   { path: 'privacy', component: PrivacyPolicyComponent },
